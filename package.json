@@ -1,13 +1,12 @@
 {
-  "name": "node",
+  "name": "nodeapi",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon server.js"
   },
-  "license": "MIT",
+  "license": "ICS",
   "dependencies": {
-    "@types/express": "^4.17.8",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "mongoose": "^5.10.2",
@@ -16,5 +15,8 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
-  }
+  },
+  "description": "Api CRUD ",
+  "repository": "https://github.com/Konschier/nodeapi.git",
+  "author": "Konschier <maykonschier@gmail.com0>"
 }
